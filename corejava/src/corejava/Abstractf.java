@@ -1,34 +1,34 @@
 package corejava;
 
-class car{
+class car{ //create class
 	
-	car(){
-		System.out.println("car is built");
+	car(){  // create constructor
+		System.out.println("car is built"); //print car is built
 		 
 			 
 			 }
-	void gearchange() {
-		System.out.println("gear change ");
+	public void gearchange() {   //create method
+		System.out.println("gear change ");  //print gear change
 		
 		}
 		
 		
 	}
-class Tesla extends car{
-	void drive() {
-		System.out.println("gear change method");
+class Tesla extends car{  //create another class extends parent class
+	public void drive() { // create drive method
+		System.out.println("gear change method");  //print gear change method
 	}
 	
 }
 
 
 
-public class Abstractf {
+public class Abstractf { // create main class
 
-	public static void main(String[] args) {
-	 car c=new car();
-	 c.gearchange();
-
+	public static void main(String[] args) {  //create main method
+	 Tesla t=new Tesla(); //create an object
+	 t.gearchange();  //call gearchange method
+     t.drive();
 	}
 
 }
