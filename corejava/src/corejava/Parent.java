@@ -1,4 +1,4 @@
-package corejava;
+ package corejava;
 
 class par{
 	void text() {
